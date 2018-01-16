@@ -1,0 +1,76 @@
+
+*  {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.site-header-background {
+/* the url is the background of the header image */
+  background-image: url('images/barce1.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.logo {
+  max-width: 100px;
+  height: 100px;
+  margin-left: 80px;
+}
+
+.logo-font {
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.button {
+    background-color: Green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+  background-color: Blue;
+}
+
+.button3 {
+  background-color: Red;
+}
+
+.button4 {
+  background-color: black;
+}
+
+.button5 {
+  background-color: yellow;
+}
+
+.main-page {
+  display: flex;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: grey;
+  text-align: center;
+}
